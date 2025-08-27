@@ -1,0 +1,55 @@
+# Ignore competition data files
+ASIAChallenge_ShareFile/
+
+# Ignore CSV files in data directory
+data/*.csv
+
+# But allow specific submission files
+!data/submission_time.csv
+!data/submission_exact_replication.csv
+
+# Ignore pickle files (model files)
+# data/*.pkl
+# *.pkl
+
+# But keep the data directory structure
+!data/.gitkeep
+
+# Python ignores
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual environment
+venv/
+ENV/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
